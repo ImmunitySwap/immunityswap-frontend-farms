@@ -5,31 +5,31 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'VIKING-BUSD LP',
+    lpSymbol: 'VITALITY-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x9b989a7b8963f4b08ec094710e2966fb3c7f6c43',
+      56: '0x46Efe550E21D77300470eDeE45e2EB9566be6f65',
     },
-    tokenSymbol: 'VIKING',
+    tokenSymbol: 'VITALITY',
     tokenAddresses: {
       97: '',
-      56: '0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
+      56: '0x29927a1Ad6EE13357D276bA3A26bFc90371DE141',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
-  },
+  }, 
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'VIKING-BNB LP',
+    lpSymbol: 'VITALITY-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xc79173e5f6501d7c1ab2f4e7544b13fc6562ce6a',
+      56: '0x72F7939afa39941F8E32Ab74947E872bD59E4067',
     },
-    tokenSymbol: 'VIKING',
+    tokenSymbol: 'VITALITY',
     tokenAddresses: {
       97: '',
-      56: '0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
+      56: '0x29927a1Ad6EE13357D276bA3A26bFc90371DE141',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -49,7 +49,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
-  },
+  }, /*
   {
     pid: 3,
     risk: 1,
@@ -177,7 +177,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
-  },
+  }, /*
   {
     pid: 11,
     risk: 5,
@@ -398,7 +398,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
-  },
+  }, */
 ]
 
 export default farms
