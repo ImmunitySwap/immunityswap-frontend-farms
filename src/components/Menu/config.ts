@@ -24,7 +24,7 @@ const config: MenuEntry[] = [
     label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
-  },/*
+  },/* 
   {
     label: 'Armory',
     icon: 'PoolIcon',
@@ -37,7 +37,7 @@ const config: MenuEntry[] = [
       {
         label: 'PancakeSwap',
         href: 'https://pancakeswap.info/token/0x29927a1Ad6EE13357D276bA3A26bFc90371DE141',
-      }/*,
+      }/* ,
       {
         label: 'CoinMarketCap',
         href: 'https://coinmarketcap.com/currencies/viking-swap/',
