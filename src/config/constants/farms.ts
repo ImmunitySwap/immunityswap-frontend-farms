@@ -49,23 +49,23 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
-  }, /*
+  }, 
   {
     pid: 3,
     risk: 1,
-    lpSymbol: 'USDT-BUSD LP',
+    lpSymbol: 'bIMTY-VITAL LP',
     lpAddresses: {
       97: '',
-      56: '0xc15fa3e22c912a276550f3e5fe3b0deb87b55acd',
+      56: '0xf030a8c815360614061da3eac95f6e66155262c8',
     },
-    tokenSymbol: 'USDT',
+    tokenSymbol: 'bIMTY',
     tokenAddresses: {
       97: '',
-      56: '0x55d398326f99059ff775485246999027b3197955',
+      56: '0x5Aaf9ddd8AeEC564AAaa0F76B8E5f2B2B1a6d295',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
-  },
+  }, /*
   {
     pid: 4,
     risk: 2,
