@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '/',
+    href: 'https://immunityswap.com/',
   },
   {
     label: 'Trade',
@@ -12,18 +12,18 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://exchange.immunityswap.com/',
+        href: 'https://exchange.immunityswap.com/',
       },
       {
         label: 'Liquidity',
-        href: 'http://exchange.immunityswap.com/#/pool',
+        href: 'https://exchange.immunityswap.com/#/pool',
       },
     ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: '/farms',
+    href: 'https://immunityswap.com/farms',
   },/* 
   {
     label: 'Armory',
