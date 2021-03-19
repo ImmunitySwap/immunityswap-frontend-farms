@@ -181,7 +181,6 @@ const farms: FarmConfig[] = [
   {
     pid: 11,
     risk: 5,
-    isTokenOnly: true,
     lpSymbol: 'USDT-BUSD LP',
     lpAddresses: {
       97: '',
