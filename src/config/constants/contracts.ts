@@ -27,4 +27,12 @@ export default {
     56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
     97: '',
   },
+  vital: {
+    56: '0x29927a1Ad6EE13357D276bA3A26bFc90371DE141',
+    97: ''
+  },
+  bbnb: {
+    56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    97: ''
+  }
 }
