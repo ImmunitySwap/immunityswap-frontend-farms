@@ -59,6 +59,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
+        <img src="images/egg/hero.png" style={{height: '170px'}} alt="logo" />
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'ImmunitySwap')}
         </Heading>
