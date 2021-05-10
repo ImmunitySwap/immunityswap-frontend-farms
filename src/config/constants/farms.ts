@@ -193,7 +193,53 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
-  }, /*
+  }, {
+    pid: 12,
+    risk: 5,
+    lpSymbol: 'CAKE-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xa527a61703d82139f8a06bc30097cc9caa2df5a6'
+    },
+    tokenSymbol: 'CAKE',
+    tokenAddresses: {
+      97: '',
+      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82'
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.bbnb
+  }, {
+    pid: 13,
+    risk: 5,
+    lpSymbol: 'CAKE-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x0ed8e0a2d99643e1e65cca22ed4424090b8b7458'
+    },
+    tokenSymbol: 'CAKE',
+    tokenAddresses: {
+      97: '',
+      56: '0x0ed8e0a2d99643e1e65cca22ed4424090b8b7458'
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  }, {
+    pid: 14,
+    risk: 5,
+    lpSymbol: 'EGG-USD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019'
+    },
+    tokenSymbol: 'EGG',
+    tokenAddresses: {
+      97: '',
+      56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6'
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd
+  }
+  /*
   {
     pid: 12,
     risk: 1,
