@@ -31,6 +31,11 @@ const config: MenuEntry[] = [
     href: '/nests', 
   }, */
   {
+    label: 'Chart',
+    icon: '',
+    href: 'https://goswappcharts.web.app/?isbsc=true&tokenId=0x29927a1ad6ee13357d276ba3a26bfc90371de141'
+  },
+  {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
