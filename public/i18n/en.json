@@ -645,19 +645,19 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Immunity Stats"
+        "text": "VITAL Stats"
       }
     },
     {
       "data": {
         "stringId": 536,
-        "text": "Total VITAL Supply"
+        "text": "Total Circulating Supply"
       }
     },
     {
       "data": {
         "stringId": 538,
-        "text": "Total VITAL Burned"
+        "text": "Total Burned"
       }
     },
     {

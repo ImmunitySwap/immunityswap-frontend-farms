@@ -226,7 +226,7 @@ const farms: FarmConfig[] = [
   }, {
     pid: 14,
     risk: 5,
-    lpSymbol: 'EGG-USD LP',
+    lpSymbol: 'EGG-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019'

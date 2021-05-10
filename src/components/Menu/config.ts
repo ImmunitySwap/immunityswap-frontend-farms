@@ -32,7 +32,7 @@ const config: MenuEntry[] = [
   }, */
   {
     label: 'Chart',
-    icon: '',
+    icon: 'GraphIcon',
     href: 'https://goswappcharts.web.app/?isbsc=true&tokenId=0x29927a1ad6ee13357d276ba3a26bfc90371de141'
   },
   {
