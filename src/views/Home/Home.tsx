@@ -60,13 +60,15 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        { isDark && <img src="images/egg/hero.png" style={{height: '170px'}} alt="logo" /> || <img src="images/egg/hero_light.png" style={{ height: '140px' }} alt="" /> }        
+        { isDark && <img src="images/egg/hero.png" style={{height: '170px'}} alt="logo" /> || <img src="images/egg/hero_light.png" style={{ height: '140px' }} alt="" /> }
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'ImmunitySwap')}
         </Heading>
-        <Text>{TranslateString(578, '')}</Text>
+        {/* <Text>{TranslateString(578, '10% of deposit fee goes to charity that fights disease')}</Text> */}
       </Hero>
       <div>
+        <Text style={{paddingBottom: '30px', textAlign: 'center'}}>10% of deposit fee goes to charity that fights disease</Text>
+
         <Cards>
           <FarmStakingCard />
           <TwitterCard/>
