@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { useTheme } from 'styled-components'
 import { Heading, Text, BaseLayout } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
@@ -55,11 +55,12 @@ const Cards = styled(BaseLayout)`
 
 const Home: React.FC = () => {
   const TranslateString = useI18n()
+  const { isDark } = useTheme();
 
   return (
     <Page>
       <Hero>
-        <img src="images/egg/hero.png" style={{height: '170px'}} alt="logo" />
+        { isDark && <img src="images/egg/hero.png" style={{height: '170px'}} alt="logo" /> || <img src="images/egg/hero_light.png" style={{ height: '140px' }} alt="" /> }        
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'ImmunitySwap')}
         </Heading>
