@@ -65,22 +65,6 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.VITAL,
     quoteTokenAdresses: contracts.vital,
-  }, 
-  {
-    pid: 4,
-    risk: 2,
-    lpSymbol: 'bIMTY-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0x09F0E25A7141FF9F040776BdfF64305787AF2d8B',
-    },
-    tokenSymbol: 'bIMTY',
-    tokenAddresses: {
-      97: '',
-      56: '0x5Aaf9ddd8AeEC564AAaa0F76B8E5f2B2B1a6d295',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
   },
   {
     pid: 5,

@@ -40,6 +40,10 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
+        label: 'Documentation',
+        href: 'https://immunitytoken.gitbook.io/immunityswap-docs/'
+      },
+      {
         label: 'PancakeSwap',
         href: 'https://pancakeswap.info/token/0x29927a1Ad6EE13357D276bA3A26bFc90371DE141',
       }/* ,
